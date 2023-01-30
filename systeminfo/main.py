@@ -1,5 +1,13 @@
-def main():
-    print("Hello World!")
+import platform
+import os
+import psutil
+import socket
 
-if __name__ == '__main__':
-    main()
+print(platform.node())
+print(platform.platform())
+print(platform.release())
+print(os.cpu_count())
+print(psutil.virtual_memory().total)
+
+hostname = socket.gethostname()
+print("Your Computer IP Address is:" + socket.gethostbyname(hostname))
