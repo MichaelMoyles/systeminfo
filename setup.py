@@ -12,6 +12,6 @@ setup(
     url= "https://github.com/MichaelMoyles/systeminfo",
     author= "Michael Moyles",
     entry_points={
-        'console_scripts': ['dystem-info=systeminfo.main:main']
+        'console_scripts': ['systeminfo=systeminfo.main:main']
     }
 )

@@ -3,7 +3,8 @@ import os
 import psutil
 import socket
 
-def main ():
+
+def main():
     print(platform.node())
     print(platform.platform())
     print(platform.release())
