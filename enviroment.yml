@@ -1,0 +1,10 @@
+name: comp30830
+channels:
+  - defaults
+dependencies:
+  - python
+  - scikit-learn
+  - jupyterlab
+  - pandas
+  - numpy
+prefix: /opt/anaconda3/envs/comp30830
