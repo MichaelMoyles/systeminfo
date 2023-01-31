@@ -10,5 +10,8 @@ setup(
     version = "v1.0",
     packages=find_packages(include=['systeminfo', 'systeminfo.*']),
     url= "https://github.com/MichaelMoyles/systeminfo",
-    author= "Michael Moyles"
+    author= "Michael Moyles",
+    entry_points={
+        'console_scripts': ['dystem-info=systeminfo.main:main']
+    }
 )
