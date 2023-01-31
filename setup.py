@@ -8,6 +8,6 @@ def readme():
 setup(
     name = "systeminfo",
     version = "v1.0",
-    url= "https://github.com/MichaelMoyles/systeminfo.git",
+    url= "https://github.com/MichaelMoyles/systeminfo",
     author= "Michael Moyles"
 )
